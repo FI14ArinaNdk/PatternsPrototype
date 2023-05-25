@@ -91,7 +91,7 @@ namespace PatternsPrototype.Tests
             milk2.Price = 50; 
 
             Assert.AreNotSame(milk, milk2);
-            Assert.AreNotEqual(milk.Price, milk2.Price); // Перевіряємо, що ціни різні
+            Assert.AreNotEqual(milk.Price, milk2.Price); 
             Assert.AreEqual(milk.ExpirationDate, milk2.ExpirationDate);
             Assert.AreEqual(milk.Name, milk2.Name);
             Assert.AreEqual(milk.IdInfo.IdNumber, milk2.IdInfo.IdNumber);
