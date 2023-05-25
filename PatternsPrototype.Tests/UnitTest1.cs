@@ -15,7 +15,7 @@ namespace PatternsPrototype.Tests
             milk.Name = "Galychina";
             milk.IdInfo = new IdInfo(938716483);
 
-            Milk milk1 = milk.IncompleteCopy();
+            Milk milk1 = milk.IncompleteCopy(); 
 
             Assert.AreNotSame(milk, milk1);
             Assert.AreEqual(milk.Price, milk1.Price);
